@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load your trained model
 # Replace 'path_to_your_model' with the actual path to your saved model
-MODEL_PATH = 'F:/thesis/predict/optimized_model.h5'
+MODEL_PATH = 'optimized_model.h5'
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class names
